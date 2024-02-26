@@ -9,8 +9,8 @@ import { SharedService } from '../shared.service';
   styleUrl: './dropdown.component.css',
 })
 export class DropdownComponent {
-  dropdownItems = ['Nuevos primero', 'Últimos primero', 'A-Z', 'Z-A'];
-  currentOrder = 'Nuevos primero';
+  dropdownItems = ['New first', 'Last first', 'A-Z', 'Z-A'];
+  currentOrder = 'New first';
   isDropdownOpen = false;
 
   constructor(private sharedService: SharedService) {}

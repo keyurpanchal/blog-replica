@@ -15,7 +15,7 @@ export class CardsComponent implements OnInit {
   isCardLoading = true;
   currentCategory = '';
   currentSearch = '';
-  currentOrder = 'Nuevos primero';
+  currentOrder = 'New first';
   filteredCards: cards_props[] = [];
 
   onImageLoad(): void {
@@ -69,7 +69,7 @@ export class CardsComponent implements OnInit {
       this.filterByCategory(this.currentCategory);
       this.filteredCards.length === 0 && this.router.navigate(['/not-found']);
     } else {
-      this.filterByCategory('populares');
+      this.filterByCategory('popular');
     }
 
     if (this.currentSearch) {
@@ -79,9 +79,9 @@ export class CardsComponent implements OnInit {
 
   private sortCards(a: cards_props, b: cards_props): number {
     switch (this.currentOrder) {
-      case 'Nuevos primero':
+      case 'New first':
         return a.id - b.id;
-      case 'Últimos primero':
+      case 'Last first':
         return b.id - a.id;
       case 'A-Z':
         return a.title.localeCompare(b.title);

@@ -43,14 +43,14 @@ export class SidebarComponent {
     {
       id: 1,
       icon: '/assets/svg/Color.svg',
-      name: 'Colores',
-      link: '/category/colores',
+      name: 'colors',
+      link: '/category/colors',
     },
     {
       id: 2,
       icon: '/assets/svg/Component.svg',
-      name: 'Componentes',
-      link: '/category/componentes',
+      name: 'components',
+      link: '/category/components',
     },
     {
       id: 3,
@@ -61,26 +61,26 @@ export class SidebarComponent {
     {
       id: 4,
       icon: '/assets/svg/Forms.svg',
-      name: 'Formularios',
-      link: '/category/formularios',
+      name: 'forms',
+      link: '/category/forms',
     },
     {
       id: 5,
       icon: '/assets/svg/Font.svg',
-      name: 'Fuentes',
-      link: '/category/fuentes',
+      name: 'fonts',
+      link: '/category/fonts',
     },
     {
       id: 6,
       icon: '/assets/svg/Icon.svg',
-      name: 'Iconos',
-      link: '/category/iconos',
+      name: 'icons',
+      link: '/category/icons',
     },
     {
       id: 7,
       icon: '/assets/svg/Template.svg',
-      name: 'Plantillas',
-      link: '/category/plantillas',
+      name: 'templates',
+      link: '/category/templates',
     },
     {
       id: 8,

@@ -24,7 +24,7 @@ export class CategoryComponent implements OnInit {
     this.route.params.subscribe((params) => {
       this.currentCategory = params['name'];
       this.sharedService.setCurrentCategory(this.currentCategory);
-      this.sharedService.setCurrentOrder('Nuevos primero');
+      this.sharedService.setCurrentOrder('New first');
       this.sharedService.setCurrentSearch('');
       this.sharedService.setIsCardLoading(true);
     });

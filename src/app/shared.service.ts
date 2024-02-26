@@ -8,7 +8,7 @@ export class SharedService {
   private currentCategorySubject = new BehaviorSubject<string>('');
   currentCategory$ = this.currentCategorySubject.asObservable();
 
-  private currentOrderSubject = new BehaviorSubject<string>('Nuevos primero');
+  private currentOrderSubject = new BehaviorSubject<string>('New first');
   currentOrder$ = this.currentOrderSubject.asObservable();
 
   private currentSearchSubject = new BehaviorSubject<string>('');
